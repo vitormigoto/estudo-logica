@@ -1,15 +1,40 @@
 # estudo-logica
 Repositório dedicado ao estudo de Lógica de Programação
 
-# Diferença entre Arrays e Listas
+# Sumário
+
+1. [Diferença entre Arrays e Listas](#1)
+2. [Arrays](#2)
+    1. [Declaração de Arrays em JS](#21)
+    2. [Métodos que podem auxiliar com Arrays](#22)
+        1. [Método Length](#221)
+        2. [Método Push](#222)
+        3. [Método Pop](#223)
+        4. [Método Includes](#224)
+        5. [Método map](#225)
+        6. [Método filter](#226)
+        7. [Método find](#227)
+3. [Trees ou Árvores](#3)
+    1. [Conceitos Importantes](#31)
+        1. [Nós ou Nodes](#311)
+        2. [Nó Raiz ou Root Node](#312)
+        3. [Nó Pai ou Parent Node](#313)
+        4. [Nó Filhos ou Child Nodes](#314)
+        5. [Nós Irmãos ou Siblings Nodes](#315)
+        6. [Nós Folhas ou Leaf Nodes](#316)
+        7. [Profundidade (Depth) e Altura (Height)](#317)
+        8. [Árvore Binária](#318)
+        9. [Árvore Não-Binária](#319)
+
+# Diferença entre Arrays e Listas <a name="1"></a>
 
 Basicamente algumas linguagens tem diferenças entre arrays e listas, apesar de serem estruturas semelhantes, as listas permitem a inclusão e exclusão de itens no meio da estrutura de uma maneira mais flexível que as Arrays. No Javascript não temos estruturas de listas especificas, as listas são como arrays. Enquanto no Phyton temos estruturas de dados de Listas e Arrays separadamente. 
 
-# Arrays
+# Arrays<a name="2"></a>
 
 Arrays são estruturas de dados que permitem armazenar e manipular conjunto de valores. É importante saber que para se recuperar um item da lista, usamos sua posição como índice. Toda Array inicia com sua posição em 0.
 
-## Declaração de Arrays em JS
+## Declaração de Arrays em JS<a name="21"></a>
 
 Para se declarar uma nova array em JS usamos os colchetes [ ]:
 
@@ -23,9 +48,9 @@ Para modificar o valor de um item da lista usamos o nome da lista com o indice e
 lista[0] = "Novo Valor"
 ```
 
-## Métodos que podem auxiliar com Arrays
+## Métodos que podem auxiliar com Arrays<a name="22"></a>
 
-**Método Length**
+**Método Length**<a name="221"></a>
 
 Para saber a quantidade de elementos em uma Array posso usar o método length.
 
@@ -41,7 +66,7 @@ lista[lista.lenght - 1] // Isso irá retornar o último elemento da minha lista
 
  
 
-**Método Push**
+**Método Push**<a name="222"></a>
 
 Para adicionar um novo valor ao final da minha lista usamos o método Push
 
@@ -49,7 +74,7 @@ Para adicionar um novo valor ao final da minha lista usamos o método Push
 lista.push("Valor a ser adicionado no final")
 ```
 
-**Método Pop**
+**Método Pop**<a name="223"></a>
 
 Para remover o último elemento do final da minha lista usamos o método Pop
 
@@ -57,7 +82,7 @@ Para remover o último elemento do final da minha lista usamos o método Pop
 lista.pop()
 ```
 
-******************************Método Includes******************************
+**Método Includes**<a name="224"></a>
 
 Para verificar se um valor está incluído dentro da nossa lista podemos usar o método includes. Este método retorna um valor booleano para caso o valor exista ou não na lista.
 
@@ -65,7 +90,7 @@ Para verificar se um valor está incluído dentro da nossa lista podemos usar o 
 lista.include("Valor2") // Caso o valor exista ele retorna true caso contrario false
 ```
 
-**Método map**
+**Método map**<a name="225"></a>
 
 Este método executa uma função especifica com todos os itens de uma array. Ao final ele retorna uma NOVA lista com os valores alterados pela função.
 
@@ -75,7 +100,7 @@ const numeros_dobrados = numeros.map(num =>  num * 2)
 // a Lista numeros dobrados terá os valores [2,4,6] dentro dela
 ```
 
-**************************Método filter**************************
+**Método filter**<a name="226"></a>
 
 Este método irá retornar uma nova lista somente com os valores que atenderem uma verificação de uma condição.
 
@@ -85,7 +110,7 @@ const numeros_filtrados = numeros.filter(num => num < 20)
 // A lista numeros_filtrados irá trazer apenas os numeros [15,17]
 ```
 
-**Método find**
+**Método find**<a name="227"></a>
 
 Este método retorna o primeiro valor encontrado na array que atende a uma condição
 
@@ -94,7 +119,7 @@ const numeros [1,2,3,4,5]
 console.log(numeros.find(num => num < 3))
 ```
 
-# Trees ou Árvores
+# Trees ou Árvores<a name="3"></a>
 
 Árvores são estrutura de dados hierárquicas e servem para modelar e resolver problemas computacionais complexos. 
 
@@ -105,44 +130,44 @@ console.log(numeros.find(num => num < 3))
 
 Exemplo de Árvore onde cada ponto é um nó e cada seta uma linha
 
-## ******************************************Conceitos Importantes******************************************
+## **Conceitos Importantes**<a name="31"></a>
 
 Abaixo vamos entender alguns conceitos importantes sobre árvores.
 
-********Nós ou Nodes********
+**Nós ou Nodes**<a name="311"></a>
 
 Cada elemento de uma árvore é chamado de Nó. Cada nó pode conter dados/informações e referências para seus nós filhos
 
-******Nó Raiz ou Root Node******
+**Nó Raiz ou Root Node**<a name="312"></a>
 
 O nó superior na hierarquia é chamado de nó raiz. O Nó Raiz não possui um nó pai.
 
-**Nó Pai ou Parent Node**
+**Nó Pai ou Parent Node**<a name="313"></a>
 
 Cada nó que possui um ou mais nós filhos é chamado de nó pai. Cada nó pai está diretamente posicionado acima dos seus nós filhos na hierarquia da árvore.
 
-**Nó Filhos ou Child Nodes**
+**Nó Filhos ou Child Nodes**<a name="314"></a>
 
 Os nós conectados abaixo de um nó superior são chamados de Nós filhos. Cada nó pai pode ter vários Nós filhos. 
 
-**Nós Irmãos ou Siblings Nodes**
+**Nós Irmãos ou Siblings Nodes**<a name="315"></a>
 
 Nós filhos do mesmo nó pai são chamados de nós irmãos. Eles compartilham o mesmo nó pai.
 
-**Nós Folhas ou Leaf Nodes**
+**Nós Folhas ou Leaf Nodes**<a name="316"></a>
 
 Os nós que não possuem nós filhos são chamados de Leaf Nodes. Estes nós são os nós terminais da árvore.
 
-******************************Profundidade (Depth) e Altura (Height)******************************
+**Profundidade (Depth) e Altura (Height)**<a name="317"></a>
 
 A profundidade de um nó é o número de conexões do caminho do nó raiz até este nó. O nó raiz tem profundidade 0.
 
 A altura de um nó é a distancia máxima entre esse nó e uma de suas folhas. A altura da árvore é a altura do nó raiz.
 
-**Árvore Binária**
+**Árvore Binária**<a name="318"></a>
 
 Uma árvore Binária é um tipo de árvore onde cada nó pai possui no máximo dois nós filhos, um a esquerda e outro a direita.
 
-**Árvore Não-Binária**
+**Árvore Não-Binária**<a name="319"></a>
 
 Na árvore não binária cada nó pai pode ter mais de dois filhos em cada nó.
