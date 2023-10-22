@@ -25,3 +25,8 @@ console.log(minha_array[minha_array.length - 1])
 
 minha_array.push("Novo valor Final")
 console.log(minha_array)
+
+// Para remover um valor do final da minha lista usamos o método pop() e ele irá remover o último elemento da lista
+
+minha_array.pop()
+console.log(minha_array)
