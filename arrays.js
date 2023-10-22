@@ -34,3 +34,12 @@ console.log(minha_array)
 // Para verificar se um valor existe na nossa lista podemos usar o método includes. Este método vai retornar um valor booleano (verdadeiro ou falso) se o valor existir ou não dentro da nossa lista
 
 console.log(minha_array.includes("Valor2"))
+
+// Para executar uma função especifica por cada item de uma lista usamos o método map
+// Este método gera uma nova lista com os novos valores após passar pela função especificada.
+
+const numeros = [1,2,3]
+console.log(numeros)
+const numeros_dobrados = numeros.map(num => num * 2)
+console.log(numeros, numeros_dobrados)
+
