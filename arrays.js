@@ -16,3 +16,7 @@ console.log(minha_array)
 // Para retornar o total de itens dentro de uma lista usamos o metodo length
 
 console.log(minha_array.length);
+
+// Para retornar o último elemento da minha lista podemos usar o método length subtraindo 1
+
+console.log(minha_array[minha_array.length - 1])
