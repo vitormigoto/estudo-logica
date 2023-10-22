@@ -30,3 +30,7 @@ console.log(minha_array)
 
 minha_array.pop()
 console.log(minha_array)
+
+// Para verificar se um valor existe na nossa lista podemos usar o método includes. Este método vai retornar um valor booleano (verdadeiro ou falso) se o valor existir ou não dentro da nossa lista
+
+console.log(minha_array.includes("Valor2"))
