@@ -1,7 +1,7 @@
 # estudo-logica
 Repositório dedicado ao estudo de Lógica de Programação
 
-# Sumário
+# Sumário <a name="0"></a>
 
 1. [Diferença entre Arrays e Listas](#1)
 2. [Arrays](#2)
@@ -26,7 +26,7 @@ Repositório dedicado ao estudo de Lógica de Programação
         8. [Árvore Binária](#318)
         9. [Árvore Não-Binária](#319)
 
-# Diferença entre Arrays e Listas <a name="1"></a>
+# Diferença entre Arrays e Listas <a name="1"></a> [^](#1)
 
 Basicamente algumas linguagens tem diferenças entre arrays e listas, apesar de serem estruturas semelhantes, as listas permitem a inclusão e exclusão de itens no meio da estrutura de uma maneira mais flexível que as Arrays. No Javascript não temos estruturas de listas especificas, as listas são como arrays. Enquanto no Phyton temos estruturas de dados de Listas e Arrays separadamente. 
 
