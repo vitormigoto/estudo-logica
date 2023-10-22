@@ -43,3 +43,10 @@ console.log(numeros)
 const numeros_dobrados = numeros.map(num => num * 2)
 console.log(numeros, numeros_dobrados)
 
+// Para filtrar os numeros de uma lista utilizamos o método filter
+// Este método irá passar cada item da lista por uma condição e retornará uma nova lista com os valores filtrados
+
+const outros_numeros = [15,17,54]
+const numeros_filtrados = outros_numeros.filter(num => num < 20)
+console.log(outros_numeros, numeros_filtrados)
+
