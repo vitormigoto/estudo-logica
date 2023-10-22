@@ -93,3 +93,56 @@ Este método retorna o primeiro valor encontrado na array que atende a uma condi
 const numeros [1,2,3,4,5]
 console.log(numeros.find(num => num < 3))
 ```
+
+# Trees ou Árvores
+
+Árvores são estrutura de dados hierárquicas e servem para modelar e resolver problemas computacionais complexos. 
+
+> Elas são nós conectados por linhas onde cada nó tem 0 ou mais nós filhos
+> 
+
+![Exemplo de Árvore onde cada ponto é um nó e cada seta uma linha](https://prod-files-secure.s3.us-west-2.amazonaws.com/6a055055-52ec-4ebb-a697-63027c951344/159a7923-3417-4318-a8b5-49475f8b8241/Untitled.png)
+
+Exemplo de Árvore onde cada ponto é um nó e cada seta uma linha
+
+## ******************************************Conceitos Importantes******************************************
+
+Abaixo vamos entender alguns conceitos importantes sobre árvores.
+
+********Nós ou Nodes********
+
+Cada elemento de uma árvore é chamado de Nó. Cada nó pode conter dados/informações e referências para seus nós filhos
+
+******Nó Raiz ou Root Node******
+
+O nó superior na hierarquia é chamado de nó raiz. O Nó Raiz não possui um nó pai.
+
+**Nó Pai ou Parent Node**
+
+Cada nó que possui um ou mais nós filhos é chamado de nó pai. Cada nó pai está diretamente posicionado acima dos seus nós filhos na hierarquia da árvore.
+
+**Nó Filhos ou Child Nodes**
+
+Os nós conectados abaixo de um nó superior são chamados de Nós filhos. Cada nó pai pode ter vários Nós filhos. 
+
+**Nós Irmãos ou Siblings Nodes**
+
+Nós filhos do mesmo nó pai são chamados de nós irmãos. Eles compartilham o mesmo nó pai.
+
+**Nós Folhas ou Leaf Nodes**
+
+Os nós que não possuem nós filhos são chamados de Leaf Nodes. Estes nós são os nós terminais da árvore.
+
+******************************Profundidade (Depth) e Altura (Height)******************************
+
+A profundidade de um nó é o número de conexões do caminho do nó raiz até este nó. O nó raiz tem profundidade 0.
+
+A altura de um nó é a distancia máxima entre esse nó e uma de suas folhas. A altura da árvore é a altura do nó raiz.
+
+**Árvore Binária**
+
+Uma árvore Binária é um tipo de árvore onde cada nó pai possui no máximo dois nós filhos, um a esquerda e outro a direita.
+
+**Árvore Não-Binária**
+
+Na árvore não binária cada nó pai pode ter mais de dois filhos em cada nó.
