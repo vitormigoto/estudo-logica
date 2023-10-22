@@ -4,7 +4,7 @@
 const minha_array = ["Valor1", "Valor2", "Valor3"]
 
 // As arrays começam suas posições sempre em 0
-// Obtemos o primeiro valor colocando o indice entre colchetes
+// Obtemos qualquer valor colocando o indice dele entre colchetes, colocando o indice 0 obtemos o primeiro valor da lista
 
 console.log(minha_array[0])
 
@@ -20,3 +20,8 @@ console.log(minha_array.length);
 // Para retornar o último elemento da minha lista podemos usar o método length subtraindo 1
 
 console.log(minha_array[minha_array.length - 1])
+
+// Para adicionar um novo valor ao final da minha lista usamos o método push() passando o valor a ser adicionado dentro dos parenteses
+
+minha_array.push("Novo valor Final")
+console.log(minha_array)
