@@ -7,3 +7,7 @@ const minha_array = ["Valor1", "Valor2", "Valor3"]
 // Obtemos o primeiro valor colocando o indice entre colchetes
 
 console.log(minha_array[0])
+
+// Para retornar o total de itens dentro de uma lista usamos o metodo length
+
+console.log(minha_array.length);
