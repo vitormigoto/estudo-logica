@@ -8,6 +8,11 @@ const minha_array = ["Valor1", "Valor2", "Valor3"]
 
 console.log(minha_array[0])
 
+// Para alterar o valor de um item da lista simplesmente usamos o nome da lista com a posição que desejamos alterar e atribuimos o novo valor 
+
+minha_array[0] = "Novo Valor1"
+console.log(minha_array)
+
 // Para retornar o total de itens dentro de uma lista usamos o metodo length
 
 console.log(minha_array.length);
