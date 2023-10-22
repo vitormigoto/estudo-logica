@@ -101,7 +101,7 @@ console.log(numeros.find(num => num < 3))
 > Elas são nós conectados por linhas onde cada nó tem 0 ou mais nós filhos
 > 
 
-![Exemplo de Árvore onde cada ponto é um nó e cada seta uma linha](https://prod-files-secure.s3.us-west-2.amazonaws.com/6a055055-52ec-4ebb-a697-63027c951344/159a7923-3417-4318-a8b5-49475f8b8241/Untitled.png)
+![Exemplo de Árvore onde cada ponto é um nó e cada seta uma linha](img/B-tree-definition.png)
 
 Exemplo de Árvore onde cada ponto é um nó e cada seta uma linha
 
