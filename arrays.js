@@ -50,3 +50,7 @@ const outros_numeros = [15,17,54]
 const numeros_filtrados = outros_numeros.filter(num => num < 20)
 console.log(outros_numeros, numeros_filtrados)
 
+// Para procurar um item a partir de uma condição na array podemos usar o método find
+// Ele retorna o primeiro valor encontrado na array a partir de uma condição
+
+console.log(outros_numeros.find(num => num < 20))
